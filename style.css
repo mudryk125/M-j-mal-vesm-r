@@ -1,1 +1,108 @@
 
+/* Jednoduchý vzhled celého webu */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #101829;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1c2d4a;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: #294466;
+    text-align: center;
+    padding: 14px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: #1c2d4a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #a9d9ff;
+}
+
+a {
+    color: #a9d9ff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.hlavni-obrazek {
+    display: block;
+    width: 450px;
+    margin: 20px auto 0;
+}
+
+.planeta-obrazek {
+    width: 260px;
+}
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.karta {
+    width: 240px;
+    background-color: #294466;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.karta img {
+    width: 100%;
+}
+
+.karta h3 {
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1c2d4a;
+    padding: 12px;
+}
+
